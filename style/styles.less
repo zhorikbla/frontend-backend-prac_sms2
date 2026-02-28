@@ -1,0 +1,43 @@
+@font-size-main: 24px;
+@font-size-tit: 34px;
+@font-size-lit: 16px;
+@font-color: #296a90;
+@primary: #002d99;
+@theme: dark;
+.center-all(){
+    text-align:center;
+}
+.card {
+    //border: 5px solid @primary;
+    width: 320px;
+    height: 420px; 
+    margin: auto;
+    .center-all();
+
+    &__title{
+        font-size: @font-size-tit;
+        color: @font-color;
+    }
+    &__description{
+        font-size: @font-size-main;
+        color: @font-color;
+    }
+    &__img{
+        width: 300px;
+        height: 180px;
+    }
+}
+
+.button(@color){
+    align-self: auto;
+    width: 55px;
+    height: 25px;
+    background-color: @primary;
+    color: #ffffff;
+    border: 1px solid ;
+    border-radius: 5px;
+
+}
+.btn{
+    .button(@primary);
+}

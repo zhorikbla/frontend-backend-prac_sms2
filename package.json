@@ -1,5 +1,13 @@
 {
   "dependencies": {
-    "express": "^5.2.1"
+    "axios": "^1.13.6",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "na": "^0.0.1-dev0",
+    "nanoid": "^5.1.6"
+  },
+  "devDependencies": {
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   }
 }
